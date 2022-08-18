@@ -37,7 +37,7 @@ app.put("/usuario", async(req, res) => {
         const result = await editUsuario(data)
         res.status(201).send(result) 
     } catch (error) {
-        console.log(error)
+        
     }
 })
 
